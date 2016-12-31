@@ -20,13 +20,13 @@ For example, with the pattern `:host.:kind.caius.name`, where `:host` can be any
         * `:app` = `{frontend,api,internal}`
         * Examples
 
-              $ ha web1 api
-              web1.api.test`
-
-              $ ha web{1,2} api cron2
-              cron2.api.test
-              web1.api.test
-              web2.api.test
+                $ ha web1 api
+                web1.api.test
+                
+                $ ha web{1,2} api cron2
+                cron2.api.test
+                web1.api.test
+                web2.api.test
 
 ## Usage
 
